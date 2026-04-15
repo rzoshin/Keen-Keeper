@@ -1,9 +1,13 @@
 import React from 'react';
+import Banner from '../../components/homepage/banner/Banner';
+import AllFriends from '../../components/homepage/AllFriends/AllFriends';
+
 
 const Homepage = () => {
     return (
-        <div>
-            Homepage
+        <div className='bg-[#F8FAFC]'>
+            <Banner />
+            <AllFriends />
         </div>
     );
 };
