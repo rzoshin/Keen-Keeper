@@ -1,23 +1,56 @@
 import React from "react";
 import { IoStatsChart, IoTimeOutline } from "react-icons/io5";
 import { RiHome2Line } from "react-icons/ri";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 max-w-[95%] mx-auto">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl"><span>Keen</span>Keeper</a>
+        <a className="btn btn-ghost text-xl">
+          <span>Keen</span>Keeper
+        </a>
       </div>
       <div className="flex">
-        <button className="btn btn-ghost">
-          <span><RiHome2Line /></span>Home
-        </button>
-        <button className="btn btn-ghost">
-          <span><IoTimeOutline /></span>Timeline
-        </button>
-        <button className="btn btn-ghost">
-          <span><IoStatsChart /></span>Stats
-        </button>
+        <NavLink
+          to={"/"}
+          className={({ isActive }) =>
+            `text-[#131313]/80 btn btn-ghost ${
+              isActive ? "bg-[#244D3F] text-white" : " "
+            }`
+          }
+        >
+          <span>
+            <RiHome2Line />
+          </span>
+          Home
+        </NavLink>
+        <NavLink
+          to={"/timeline"}
+          className={({ isActive }) =>
+            `text-[#131313]/80 btn btn-ghost ${
+              isActive ? "bg-[#244D3F] text-white" : " "
+            }`
+          }
+        >
+          <span>
+            <IoTimeOutline />
+          </span>
+          Timeline
+        </NavLink>
+        <NavLink
+          to={"/stats"}
+          className={({ isActive }) =>
+            `text-[#131313]/80 btn btn-ghost ${
+              isActive ? "bg-[#244D3F] text-white" : " "
+            }`
+          }
+        >
+          <span>
+            <IoStatsChart />
+          </span>
+          Stats
+        </NavLink>
       </div>
     </div>
   );

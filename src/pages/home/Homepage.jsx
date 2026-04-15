@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../../components/homepage/banner/Banner';
-import AllFriends from '../../components/homepage/AllFriends/AllFriends';
+import AllFriends from '../../components/homepage/allFriends/AllFriends';
 
 
 const Homepage = () => {

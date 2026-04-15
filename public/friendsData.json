@@ -6,7 +6,7 @@
     "email": "arafat.hossain@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["university", "close friend"],
+    "tags": ["university", "best friend"],
     "bio": "We studied statistics together at RU. Always up for late-night discussions about life and tech.",
     "goal": 14,
     "next_due_date": "2026-03-28"
@@ -66,7 +66,7 @@
     "email": "sadia.islam@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": ["university", "study partner"],
+    "tags": ["university", "classmate"],
     "bio": "We used to prepare for exams together. Still exchange book recommendations.",
     "goal": 10,
     "next_due_date": "2026-04-22"
@@ -138,7 +138,7 @@
     "email": "jannatul.ferdous@gmail.com",
     "days_since_contact": 13,
     "status": "almost due",
-    "tags": ["university", "project partner"],
+    "tags": ["university", "classmate"],
     "bio": "Worked together on multiple university projects. Very reliable and creative.",
     "goal": 14,
     "next_due_date": "2026-04-16"

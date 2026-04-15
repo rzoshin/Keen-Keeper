@@ -7,11 +7,11 @@ const AllFriends = () => {
     const allFriends = use(friendsPromise);
 
     return (
-        <div className='max-w-[75%] mx-auto'>
-            <h3>Your Friends</h3>
-            <div className='grid grid-cols-4'>
+        <div className='max-w-[75%] mx-auto pb-20 pt-10'>
+            <h3 className='font-semibold text-2xl mb-4 text-[#1F2937]'>Your Friends</h3>
+            <div className='grid grid-cols-4 gap-6'>
                 {
-                    allFriends.map(friend => <FriendCard friend={friend}/>)
+                    allFriends.map(friend => <FriendCard id={friend.id} friend={friend}/>)
                 }
 
             </div>
