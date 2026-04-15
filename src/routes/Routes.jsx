@@ -4,11 +4,13 @@ import Homepage from "../pages/home/Homepage";
 import Timeline from "../pages/timeline/Timeline";
 import Stats from "../pages/stats/Stats";
 import FriendDetails from "../components/frienddetails/FriendDetails";
+import ErrorLayout from "../layouts/ErrorLayout";
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    Component: MainLayout,
+    element: <MainLayout />,
+    errorElement: <ErrorLayout />,
     children: [
       {
         index: true,

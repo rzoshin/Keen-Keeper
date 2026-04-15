@@ -1,5 +1,56 @@
-.container {
+.gridContainer {
+    max-width: 75%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 24px
+}
+
+.main {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img 
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.cardui {
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.08);
+    background: #FFF;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+}
+.sidebar {
+    display: grid;
+    gap: 16px;
+}
+.actions {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.check-in {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
 }

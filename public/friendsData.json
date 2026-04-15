@@ -9,7 +9,8 @@
     "tags": ["university", "best friend"],
     "bio": "We studied statistics together at RU. Always up for late-night discussions about life and tech.",
     "goal": 14,
-    "next_due_date": "2026-03-28"
+    "next_due_date": "2026-03-28",
+    "preferred_contact_method": "email"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "tags": ["school", "best friend"],
     "bio": "My school best friend. We still gossip like we're 16.",
     "goal": 14,
-    "next_due_date": "2026-04-17"
+    "next_due_date": "2026-04-17",
+    "preferred_contact_method": "phone"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "tags": ["gym", "friend"],
     "bio": "Workout partner. Keeps me disciplined when I feel lazy.",
     "goal": 10,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "2026-04-20",
+    "preferred_contact_method": "text"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "tags": ["colleague", "mentor"],
     "bio": "Senior colleague who guided me during my internship. Haven’t checked in recently.",
     "goal": 15,
-    "next_due_date": "2026-03-30"
+    "next_due_date": "2026-03-30",
+    "preferred_contact_method": "email"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "tags": ["neighbor", "childhood"],
     "bio": "Grew up in the same neighborhood. Used to play cricket every evening.",
     "goal": 14,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "2026-04-16",
+    "preferred_contact_method": "phone"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "tags": ["university", "classmate"],
     "bio": "We used to prepare for exams together. Still exchange book recommendations.",
     "goal": 10,
-    "next_due_date": "2026-04-22"
+    "next_due_date": "2026-04-22",
+    "preferred_contact_method": "text"
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "tags": ["startup", "friend"],
     "bio": "Runs a small tech startup. Always busy but fun to catch up with.",
     "goal": 14,
-    "next_due_date": "2026-03-25"
+    "next_due_date": "2026-03-25",
+    "preferred_contact_method": "email"
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "tags": ["cousin", "family"],
     "bio": "My cousin who recently moved to Dhaka. Loves cooking and sharing recipes.",
     "goal": 14,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "2026-04-18",
+    "preferred_contact_method": "phone"
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "tags": ["gaming", "online friend"],
     "bio": "Met through online gaming. We still squad up on weekends.",
     "goal": 7,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "2026-04-19",
+    "preferred_contact_method": "text"
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "tags": ["colleague", "friend"],
     "bio": "Former coworker. We used to have lunch together almost every day.",
     "goal": 14,
-    "next_due_date": "2026-04-01"
+    "next_due_date": "2026-04-01",
+    "preferred_contact_method": "email"
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "tags": ["football", "friend"],
     "bio": "We play football every Friday. Great striker, terrible goalkeeper.",
     "goal": 14,
-    "next_due_date": "2026-04-23"
+    "next_due_date": "2026-04-23",
+    "preferred_contact_method": "phone"
   },
   {
     "id": 12,
@@ -141,6 +152,7 @@
     "tags": ["university", "classmate"],
     "bio": "Worked together on multiple university projects. Very reliable and creative.",
     "goal": 14,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "2026-04-16",
+    "preferred_contact_method": "text"
   }
 ]
