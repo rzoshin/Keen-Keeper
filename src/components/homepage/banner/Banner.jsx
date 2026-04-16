@@ -11,9 +11,9 @@ const Banner = () => {
             </p>
             <button className='btn bg-[#244D3F] text-white'><FiPlus />Add a Friend</button>
             <div className='grid grid-cols-4 gap-6 mt-10'>
-                <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>10</span><span className='text-[#64748B] text-lg'>Total Friends</span></div>
-                <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>3</span><span className='text-[#64748B] text-lg'>On Track</span></div>
-                <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>6</span><span className='text-[#64748B] text-lg'>Need Attention</span></div>
+                <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>12</span><span className='text-[#64748B] text-lg'>Total Friends</span></div>
+                <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>4</span><span className='text-[#64748B] text-lg'>On Track</span></div>
+                <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>8</span><span className='text-[#64748B] text-lg'>Need Attention</span></div>
                 <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>12</span><span className='text-[#64748B] text-lg'>Interactions This Month</span></div>
             </div>
             <div className="divider"></div>
