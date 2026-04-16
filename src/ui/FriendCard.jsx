@@ -22,14 +22,3 @@ const FriendCard = ({friend}) => {
 };
 
 export default FriendCard;
-
-    // "id": 1,
-    // "name": "Arafat Hossain",
-    // "picture": "https://i.ibb.co.com/JFg9N0VN/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
-    // "email": "arafat.hossain@gmail.com",
-    // "days_since_contact": 18,
-    // "status": "overdue",
-    // "tags": ["university", "close friend"],
-    // "bio": "We studied statistics together at RU. Always up for late-night discussions about life and tech.",
-    // "goal": 14,
-    // "next_due_date": "2026-03-28"

@@ -1,9 +1,10 @@
 import React from 'react';
+import TimelineInfo from '../../components/timeline/TimelineInfo';
 
 const Timeline = () => {
     return (
         <div>
-            Timeline
+            <TimelineInfo />
         </div>
     );
 };

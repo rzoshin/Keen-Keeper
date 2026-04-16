@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useLoaderData, useParams } from "react-router";
 import "./FriendDetails.css";
 import { RiArchiveLine, RiDeleteBinLine, RiNotificationSnoozeLine } from "react-icons/ri";
@@ -6,6 +6,7 @@ import { TbPhoneCall } from "react-icons/tb";
 import { LuMessageSquareMore } from "react-icons/lu";
 import { PiVideoCamera } from "react-icons/pi";
 import { FiVideo } from "react-icons/fi";
+import { AppContext } from "../../context/AppProvider";
 
 const formatDate = (dateString) => {
   const date = new Date(dateString);
@@ -35,6 +36,9 @@ const FriendDetails = () => {
     next_due_date,
     preferred_contact_method,
   } = details;
+
+  const interaction = useContext(AppContext);
+  const {handleCallRecords, handleTextRecords, handleVideoRecords} = interaction;
 
   return (
     <div className="bg-[#F8FAFC]">
@@ -85,9 +89,9 @@ const FriendDetails = () => {
             <div className="cardui p-6">
               <h4 className="text-[#244D3F] text-xl font-medium mb-4">Quick Check-In</h4>
               <div className="check-in">
-                <button className="flex flex-col items-center justify-center bg-[#F8FAFC] p-4 text-[#1F2937] font-normal"><TbPhoneCall className="text-3xl"/>Call</button>
-                <button className="flex flex-col items-center justify-center bg-[#F8FAFC] p-4 text-[#1F2937] font-normal"><LuMessageSquareMore className="text-3xl"/>Text</button>
-                <button className="flex flex-col items-center justify-center bg-[#F8FAFC] p-4 text-[#1F2937] font-normal"><FiVideo className="text-3xl"/>Video</button>
+                <button onClick={() => handleCallRecords(details)} className="cursor-pointer hover:bg-[#e2e3e5] flex flex-col items-center justify-center bg-[#F8FAFC] p-4 text-[#1F2937] font-normal"><TbPhoneCall className="text-3xl"/>Call</button>
+                <button onClick={() => handleTextRecords(details)} className="cursor-pointer hover:bg-[#e2e3e5] flex flex-col items-center justify-center bg-[#F8FAFC] p-4 text-[#1F2937] font-normal"><LuMessageSquareMore className="text-3xl"/>Text</button>
+                <button onClick={() => handleVideoRecords(details)} className="cursor-pointer hover:bg-[#e2e3e5] flex flex-col items-center justify-center bg-[#F8FAFC] p-4 text-[#1F2937] font-normal"><FiVideo className="text-3xl"/>Video</button>
               </div>
             </div>
         </div>
