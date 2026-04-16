@@ -5,10 +5,9 @@ import Footer from "../components/shared/Footer";
 
 const MainLayout = ({ children }) => {
   return (
-    <div>
+    <div className="min-h-screen">
       <Navbar />
-      <main>{children ? children : <Outlet />}</main>
-
+      <main className="min-h-[51vh] bg-[#F8FAFC]">{children ? children : <Outlet />}</main>
       <Footer />
     </div>
   );

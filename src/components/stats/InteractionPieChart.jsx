@@ -5,8 +5,8 @@ const InteractionPieChart = () => {
   const data = useChartData();
 
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-sm">
-      <h2 className="text-lg font-semibold text-gray-700 mb-4">
+    <div className="bg-white p-8 rounded-2xl shadow-sm">
+      <h2 className="text-xl font-semibold text-gray-700 mb-4">
         By Interaction Type
       </h2>
 

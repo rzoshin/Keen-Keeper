@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 max-w-[95%] mx-auto">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">
-          <span>Keen</span>Keeper
+        <a className="text-2xl">
+        <span className="font-extrabold text-[#1F2937]">Keen</span><span className="font-semibold text-[#244D3F]">Keeper</span>
         </a>
       </div>
       <div className="flex">

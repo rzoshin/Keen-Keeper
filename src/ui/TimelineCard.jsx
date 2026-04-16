@@ -1,6 +1,6 @@
 import React from "react";
 import { AppContext } from "../context/AppProvider";
-import call from "../assets/call.jpg";
+import call from "../assets/call.png";
 import text from "../assets/text.png";
 import video from "../assets/video.png";
 import './TimelineCard.css';
@@ -33,9 +33,7 @@ const TimelineCard = ({ record }) => {
                 ? text
                 : video
           }
-          alt=""
-          width="80px"
-          height="80px"
+          className="w-10! h-10! rounded-none!"
         />
       </div>
       <div>

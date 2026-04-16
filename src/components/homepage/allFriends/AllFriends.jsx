@@ -9,11 +9,10 @@ const AllFriends = () => {
     return (
         <div className='max-w-[75%] mx-auto pb-20 pt-10'>
             <h3 className='font-semibold text-2xl mb-4 text-[#1F2937]'>Your Friends</h3>
-            <div className='grid grid-cols-4 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
                 {
                     allFriends.map(friend => <FriendCard id={friend.id} friend={friend}/>)
                 }
-
             </div>
         </div>
     );

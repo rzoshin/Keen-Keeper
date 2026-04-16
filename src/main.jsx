@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Providers>
       <RouterProvider router={router} />
-      <ToastContainer />
+      <ToastContainer position="top-center" theme="light" newestOnTop/>
     </Providers>
   </StrictMode>,
 )

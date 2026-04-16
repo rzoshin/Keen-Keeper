@@ -19,7 +19,7 @@ const AppProvider = ({children}) => {
         
         setCallRecords(prev => [...prev, currentFriend]);
         setRecords(prev => [...prev, newRecord]);
-        toast.success(`You are calling ${currentFriend.name}`);
+        toast.info(`You are calling ${currentFriend.name}`);
     }
     const handleTextRecords = (currentFriend) => {
         const isExist = textRecords.find(friend => friend.id === currentFriend.id);
@@ -40,7 +40,7 @@ const AppProvider = ({children}) => {
         const newRecord = {...currentFriend, interactionType: "Video", today: new Date()};
         setVideoRecords(prev => [...prev, currentFriend]);
         setRecords(prev => [...prev, newRecord]);
-        toast.success(`You are scheduling a video call with ${currentFriend.name}`);
+        toast.info(`You are video calling ${currentFriend.name}`);
     }
     const data = {
         callRecords, setCallRecords,
