@@ -15,8 +15,6 @@ const AppProvider = ({children}) => {
     }
     const handleTextRecords = (currentFriend) => {
         const newRecord = {...currentFriend, interactionType: "Text", today: new Date()};
-
-
         setRecords(prev => [...prev, newRecord]);
         toast.success(`You are texting ${currentFriend.name}`);
     }

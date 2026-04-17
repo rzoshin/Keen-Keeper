@@ -16,7 +16,7 @@ const Banner = () => {
                 <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>8</span><span className='text-[#64748B] text-lg'>Need Attention</span></div>
                 <div className='flex flex-col items-center justify-center p-8 bg-base-100 rounded-lg'><span className='text-[2rem] font-semibold text-[#244D3F] mb-2'>12</span><span className='text-[#64748B] text-lg'>Interactions This Month</span></div>
             </div>
-            <div className="divider"></div>
+            <hr className='my-10 border-[#E9E9E9] w-full' />
         </div>
     );
 };

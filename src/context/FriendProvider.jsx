@@ -1,6 +1,7 @@
-import { createContext, use, useState } from "react";
+import { createContext, use } from "react";
 
 export const FriendContext = createContext();
+
 const friendsPromise = fetch("/friendsData.json").then(res => res.json());
 
 const FriendProvider = ({children}) => {
