@@ -47,7 +47,7 @@ const TimelineInfo = () => {
                   <div
                     role="button"
                     onClick={() => setIsOpen(!isOpen)}
-                    className='btn text-[#64748B] text-lg w-[350px] flex justify-between p-4 border border-[#E9E9E9] rounded-lg'
+                    className='btn text-[#64748B] text-lg w-87.5 flex justify-between p-4 border border-[#E9E9E9] rounded-lg'
                 >
                 Filter timeline
                 <MdOutlineKeyboardArrowDown
@@ -96,11 +96,3 @@ const TimelineInfo = () => {
 };
 
 export default TimelineInfo;
-
-{/* <div className="dropdown dropdown-bottom">
-  <div tabIndex={0} role="button" className="btn m-1">Click ⬇️</div>
-  <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-  </ul>
-</div> */}

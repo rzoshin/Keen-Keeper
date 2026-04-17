@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between w-full border-t border-[#1A8862]/50 text-[#FAFAFA]/50 py-[30px]">
+        <div className="flex justify-between w-full border-t border-[#1A8862]/50 text-[#FAFAFA]/50 py-7.5">
             <p>© 2026 KeenKeeper. All rights reserved.</p>
             <div className="flex gap-6">
               <span>Privacy Policy</span>
