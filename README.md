@@ -1,62 +1,140 @@
-# KeanKeeper 🌿
+<p align="center">
+  <img src="./src/assets/keenkeeper-banner.png" alt="KeenKeeper Banner" width="100%" />
+</p>
 
-> Your personal shelf of meaningful connections — track, tend, and nurture the friendships that matter most.
+<h1 align="center">🤝 KeenKeeper</h1>
 
-KeanKeeper is a relationship management app built for people who want to be intentional about staying in touch. Life gets busy, and it's easy to lose track of the people who matter. KeanKeeper solves that by letting you set a contact goal for each friend, tracking how long it's been since your last interaction, and flagging connections that need attention. Log a call, text, or video check-in directly from a friend's page, browse your full interaction history on the Timeline, and get a visual breakdown of your habits in the Analytics dashboard. It's not a social network — it's a quiet, focused tool for maintaining real relationships.
+<p align="center">
+A system for intentional relationship management — not social media.
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+<p align="center">
 
-- **React 19** — UI with `use()` hook for async data
-- **React Router v7** — client-side routing with loaders
-- **Tailwind CSS v4 + DaisyUI** — utility-first styling with component presets
-- **Recharts** — interaction analytics pie chart
-- **React Toastify** — toast notifications
-- **React Icons** — icon library
+<a href="https://endearing-pastelito-90f818.netlify.app/">
+  <img src="https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=netlify" />
+</a>
+
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+
+<img src="https://img.shields.io/badge/React_Router-v7-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
+
+<img src="https://img.shields.io/badge/TailwindCSS-v4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+
+<img src="https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Recharts-Analytics-blueviolet?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/React_Toastify-Notifications-black?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
+
+</p>
+
+---
+
+## 📌 Project Overview
+
+**KeenKeeper** is a relationship management system built to help people stay **intentionally connected**.
+
+Instead of passive interaction, it introduces structure:
+
+* Track relationships
+* Set communication goals
+* Log interactions
+* Analyze behavior
+
+---
+
+## 🔗 Live Demo
+
+👉 https://endearing-pastelito-90f818.netlify.app/
 
 ---
 
 ## ✨ Key Features
 
-- **Friend Dashboard** — View all your friends in a card grid with their contact status (on track, almost due, overdue) at a glance.
-- **Quick Check-In Logging** — Log a Call, Text, or Video interaction directly from a friend's detail page, automatically recorded to your timeline.
-- **Friendship Analytics** — A visual breakdown of your interactions by type (Call, Text, Video) so you can see how you've been staying in touch.
+* 👥 Relationship dashboard with friend cards
+* ⏱ Days-since-last-contact tracking
+* 🎯 Custom contact goals (e.g., every 10 days)
+* 🚦 Smart status indicators:
+
+  * On Track
+  * Almost Due
+  * Overdue
+* 📞 Quick interaction logging:
+
+  * Call
+  * Text
+  * Video
+* 🕒 Timeline of interaction history
+* 📊 Analytics dashboard (interaction breakdown)
+* 🔔 Toast notifications for feedback
+* 📱 Fully responsive UI
 
 ---
 
-## 🚀 Getting Started
+## 🧠 Core Concepts Implemented
 
-```bash
-# Clone the repo
-git clone https://github.com/your-username/keenkeeper.git
-cd keenkeeper
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-```
-
-Then open [http://localhost:5173](http://localhost:5173) in your browser.
+* Loader-based data fetching (React Router)
+* Derived UI state logic (status calculation)
+* Event-driven interaction updates
+* Component-based architecture
+* Data visualization using charts
+* Real-time UI feedback systems
 
 ---
 
-## 📁 Project Structure
+## 🛠 Tech Stack
 
-```
-src/
-├── components/       # Feature components (FriendDetails, Timeline, Stats, etc.)
-├── pages/            # Route-level page components
-├── context/          # Global state via React Context
-├── layouts/          # MainLayout & ErrorLayout
-├── routes/           # React Router config
-└── ui/               # Reusable UI components (FriendCard, TimelineCard)
-```
+* **React 19**
+* **React Router v7**
+* **Tailwind CSS v4**
+* **DaisyUI**
+* **Recharts**
+* **React Toastify**
+* **React Icons**
 
 ---
 
-## 📄 License
+## 📸 Application Structure
 
-MIT
+* 🏠 **Dashboard** → Overview + relationship status
+* 👤 **Friend Details** → Goals + interaction actions
+* 🕒 **Timeline** → History of interactions
+* 📊 **Analytics** → Communication insights
+
+---
+
+## 🎯 Problem It Solves
+
+People don’t lose relationships because they don’t care.
+They lose them because they **don’t track or maintain them consistently**.
+
+KeenKeeper introduces **structure to human connection**.
+
+---
+
+## 🚀 Future Improvements
+
+* Backend integration (Node / Firebase)
+* Persistent database storage
+* Authentication system
+* Smart reminders (notifications)
+* AI-based relationship insights
+
+---
+
+## 👨‍💻 Author
+
+**Raiyan Zannat**
+CSE Graduate | MSc Engineering Candidate
+Focused on Frontend Systems, AI & Intelligent Applications
+
+---
+
+## 💡 Final Thought
+
+> Most apps help you connect with strangers.
+> KeenKeeper helps you **not lose the people who already matter.**
